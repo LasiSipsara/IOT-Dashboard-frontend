@@ -1,0 +1,6 @@
+<div class="dashboard">
+  <div *ngFor="let endpoint of endpoints" class="card">
+    <h3>{{ endpoint.title }}</h3>
+    <p>{{ endpoint.value !== null ? endpoint.value : "Loading..." }}</p>
+  </div>
+</div>

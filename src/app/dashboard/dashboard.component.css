@@ -1,0 +1,31 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: whitesmoke;
+  width: 90%;
+  height: 80vh;
+  margin-left: 4%;
+}
+
+.card {
+  background-color: rgb(114, 184, 192);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0;
+  color: #093131;
+  font-size: 30px;
+}
+
+.card p {
+  margin: 10px 0;
+  color: #093131;
+  font-size: 40px;
+}
